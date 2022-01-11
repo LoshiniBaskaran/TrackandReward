@@ -1,0 +1,85 @@
+.list-item {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 8px;
+    border: none;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font: normal 15px/2 "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+  
+.list-item:hover {
+    -webkit-transform:  scaleX(1.1) scaleY(1.1)  ;
+    transform:  scaleX(1.1) scaleY(1.1)  ;
+    cursor: pointer;
+  }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.card-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: left;
+    background-color:rgba(77, 180, 240, 0.514);
+    padding: 15px 20px;
+}
+  
+  /* Add some padding inside the card container */
+.card-content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 20px;
+  }
+
+button {
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(109, 188, 229, 1);
+}
+
+button:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+}
+
+input, textarea, select {
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal Georgia, serif;
+    color: rgba(0,0,0,1);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgba(252,252,252,1);
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  }
+  
+input:hover, input:focus, textarea:hover, textarea:focus, select:hover {
+    border: 2px solid #6dbce5;
+  }
+
+.errormsg {
+    color: red;
+    font-size: 15px;
+}

@@ -1,0 +1,22 @@
+.flexcontainer {
+    display: flex;
+    margin: 10px 50px;
+}
+
+.flexchild {
+    flex: 1;
+    border: 2px solid hsla(240, 18%, 35%, 0.61);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(109, 188, 229, 1);
+    margin: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.flexchild:first-child {
+    margin-right: 30px;
+}
+
+.flexchild:nth-child(2){
+    margin-left: 30px;
+}
